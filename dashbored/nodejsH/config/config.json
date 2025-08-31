@@ -1,0 +1,33 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "your_password_here",
+    "database": "hirehub",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": false
+    },
+    "logging": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "your_password_here",
+    "database": "hirehub_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "your_password_here",
+    "database": "hirehub_prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true,
+      "rejectUnauthorized": false
+    },
+    "logging": false
+  }
+}

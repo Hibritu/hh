@@ -1,0 +1,41 @@
+// Centralized enums and common constants for models
+
+const CATEGORY_VALUES = [
+  'engineering',
+  'programming',
+  'it',
+  'design',
+  'marketing',
+  'sales',
+  'finance',
+  'hr',
+  'operations',
+  'education',
+  'healthcare',
+  'hospitality',
+  'construction',
+  'transport',
+  'legal',
+  'customer_service',
+  'admin',
+  'agriculture',
+  'manufacturing',
+  'media',
+  'other',
+];
+
+module.exports = {
+  CATEGORY_VALUES,
+  ROLE_ENUM: ['job_seeker', 'employer', 'admin'],
+  GENDER_ENUM: ['male', 'female'],
+  EMPLOYER_TYPE_ENUM: ['individual', 'company'],
+  VERIFICATION_STATUS_ENUM: ['pending', 'verified', 'rejected'],
+  EMPLOYMENT_TYPE_ENUM: ['full-time', 'part-time', 'contract', 'internship'],
+  JOB_STATUS_ENUM: ['pending', 'approved', 'rejected', 'closed'],
+  LISTING_TYPE_ENUM: ['free', 'premium'],
+  APPLICATION_STATUS_ENUM: ['submitted', 'shortlisted', 'accepted', 'rejected'],
+  PAYMENT_STATUS_ENUM: ['pending', 'success', 'failed', 'refunded'],
+  PAYMENT_PROVIDER_ENUM: ['chapa', 'telebirr', 'cbe_birr'],
+  NOTIFICATION_TYPE_ENUM: ['job_alert', 'application_status', 'system', 'payment'],
+  REPORT_STATUS_ENUM: ['pending', 'reviewed', 'resolved'],
+};
